@@ -1,6 +1,6 @@
 # School_District_Analysis
 ## Overview of School District Analysis
-The purpose of the analysis was to study fifteen school districts and their students to compare reading and math scores. School spending, school size, and school type were also studied to compare reading and math scores among the fifteen schools. The school board also wanted to repeat the school district analysis after math and reading scores were removed from the database for Thomas High School ninth graders.
+The purpose of the analysis was to study fifteen school districts and their students to compare reading and math scores. School spending, school size, and school type were also studied to compare reading and math scores among the fifteen schools. The school board also wanted to repeat the school district analysis after math and reading scores were removed from the database for Thomas High School ninth graders. The new school district analysis showed changes after the removal of one grade of students from one high school.
 
 ## Results
 
@@ -48,10 +48,10 @@ The math and reading scores of Thomas High School went up significantly when the
 The percentage passing math, percentage passing reading, and the overall passing percentage increased for the spending bin of $630-644. This is due to Thomas High School being categorized in that spending bin at $638/student. The significant increase in the math and reading scores after the 9th graders at Thomas High School were removed from the dataframe results in an increase in scores for the spending bin of $630-644.
 
 #### Scores by School Size
-Thomas High School had a student population of 1635 and the number decreased to 1174 when the 9th grade was removed from the dataframe. Both of the figures are in the medium size range for the high schools with a student population between 1000-2000 students. Because the 9th grade was removed, the math and reading scores increased in the medium size category along with the overall passing percentage.
+Thomas High School had a student population of 1635 and the number decreased to 1174 when the 9th grade was removed from the dataframe. Both of the figures are in the medium size range for the high schools with a student population between 1000-2000 students. Because the 9th grade was removed, the passing math and reading percentages increased in the medium size category along with the overall passing percentage.
 
 #### Scores by School Type
-Thomas High School is a charter school and the passing percentages for math and reading were much higher than the district schools when all 39,170 students were considered. When the 9th graders at Thomas High School were removed from the database, the passing percentages for math and reading did not change significantly because of the strong passing percentages of the other charter schools.
+Thomas High School is a charter school and the passing percentages for math and reading were much higher than the district schools when all 39,170 students were considered. When the 9th graders at Thomas High School were removed from the database, the total student count was 38,709. Compared to 39,170 (the original student count), the change in students is not significant. Additionally, the passing percentages for math and reading did not change significantly because of the strong passing percentages of the other charter schools.
 
 ## Summary of Four Major Changes
 There are four significant changes to the new dataframe when the ninth graders from Thomas High School are removed.
