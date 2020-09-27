@@ -8,7 +8,7 @@ The purpose of the analysis was to study fifteen school districts and their stud
 The school district has 15 schools with 39,170 students and a total budget of 24.65 million dollars. The average math and reading scores are not high enough for the school board and they are concerned with the scores especially the 64% overall passing percentage.
 
 Total Schools	Total Students	Total Budget	  Average Math Score	Average Reading Score	% Passing Math	% Passing Reading	% Overall Passing
-0	    15	    39,170	        $24,649,428.00	78.9	              81.9	                75.9	          86.9	            64.1
+0	    15	    39,170	        $24,649,428.00	78.9	               81.9	                  75.9	          86.9	             64.1
 
 ### School Summary
 Each of the fifteen schools was analyzed according to type of school, total students, budget, per student budget, average math score, average reading score, percent passing math, percent passing reading, and overall passing percentage which shows the percentage of students passing both math and reading.
@@ -31,7 +31,7 @@ Thomas High School	Charter	1635	          $1,043,130.00	$638.00	            83.3
 Wright High School	Charter	1800	          $1,049,400.00	$583.00	            83.682222	83.955000	   93.333333	    96.611111	        90.333333
 
 ### Thomas High School performance
-Thomas High School has a passing math percentage of 67% and a passing reading percentage of 70%. The percentage of students passing both math and reading (overall passing percentage) is 65%. The numbers are low compared to other schools and Thomas High School has a high spending amount per student ($635/student) compared to per student budgets of the other schools. 
+Thomas High School has a passing math percentage of 67% and a passing reading percentage of 70%. The percentage of students passing both math and reading (overall passing percentage) is 65%. The numbers are low compared to other schools and Thomas High School has a high spending amount per student ($635/student) compared to per student budgets of the other high schools. 
 
 ### Replacement of ninth grade scores
 The loc method was used on the student_data_df to select all the reading and math scores from the 9th grade at Thomas High School and replace them with NaN. The code to replace both scores are:
@@ -45,10 +45,21 @@ Thomas High School	Charter	1635	          $1,043,130.00	$638.00	            83.3
 The math and reading scores of Thomas High School went up significantly when the ninth grade scores were removed. For math, the percentage of students passing math changed from 67% to 93%. For reading, the percentage of students passing reading changed from 70% to 97%. The overall passing percentage increased from 65% to 91%.
 
 #### Scores by School Spending
-The percentage passing math, percentage passing reading, and the overall passing percentage increased for the spending bin of $630-644. This is due to Thomas High School being categorized in that spending bin at $638/student. The significant increase in the math and reading scores after the 9th graders at Thomas High School were removed from the dataframe results in an increase for the spending bin of $630-644.
+The percentage passing math, percentage passing reading, and the overall passing percentage increased for the spending bin of $630-644. This is due to Thomas High School being categorized in that spending bin at $638/student. The significant increase in the math and reading scores after the 9th graders at Thomas High School were removed from the dataframe results in an increase in scores for the spending bin of $630-644.
 
 #### Scores by School Size
+Thomas High School had a student population of 1635 and the number decreased to 1174 when the 9th grade was removed from the dataframe. Both of the figures are in the medium size range for the high schools with a student population between 1000-2000 students. Because the 9th grade was removed, the math and reading scores increased in the medium size category along with the overall passing percentage.
 
 #### Scores by School Type
+Thomas High School is a charter school and the passing percentages for math and reading were much higher than the district schools when all 39,170 students were considered. When the 9th graders at Thomas High School were removed from the database, the passing percentages for math and reading did not change significantly because of the strong passing percentages of the other charter schools.
 
 ## Summary of Four Major Changes
+There are four significant changes to the new dataframe when the ninth graders from Thomas High School are removed.
+###
+For Thomas High School, the percentage of students passing math increased from 67% to 93%.
+###
+For Thomas High School, the percentage of students passing reading increased from 70% to 97%.
+###
+For Thomas High School, the overall passing percentage increased from 65% to 91%.
+###
+Thomas High School became the second best performing high school after Cabrera High School which is another charter school.
